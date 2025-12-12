@@ -40,14 +40,14 @@ This MCP server lets you control OakVar through AI assistants like Claude or Cha
 
 ```
 ┌─────────────────┐     MCP Protocol     ┌──────────────────┐
-│   Claude /      │◄───────────────────►│  OakVar MCP      │
+│   Claude /      │◄────────────────────►│  OakVar MCP      │
 │   ChatGPT       │    (stdin/stdout)    │     Server       │
 └─────────────────┘                      └────────┬─────────┘
                                                   │
                                                   │ Python API
                                                   ▼
                                          ┌──────────────────┐
-                                         │     OakVar      │
+                                         │     OakVar       │
                                          │ Variant Analysis │
                                          └──────────────────┘
 ```
