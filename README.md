@@ -56,11 +56,13 @@ This MCP server lets you control OakVar through AI assistants like Claude or Cha
 
 Note: OakVar and this MCP server must be installed in the same Python environment. If you use a virtual environment, configure your MCP client to use the full path to that environment's `oakvar-mcp` executable.
 
+<!--
 ### From PyPI
 
 ```bash
 pip install oakvar-mcp
 ```
+-->
 
 ### From Source
 

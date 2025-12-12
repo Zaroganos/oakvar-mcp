@@ -37,10 +37,12 @@ This will:
 
 ### Step 3: Install the MCP Server
 
+<!--
 **Option A: From PyPI (when published)**
 ```bash
 pip install oakvar-mcp
 ```
+-->
 
 **Option B: From source (this repo)**
 ```bash
