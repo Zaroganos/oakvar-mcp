@@ -48,7 +48,7 @@ def _ensure_oakvar():
         return oakvar
     except ImportError:
         raise RuntimeError(
-            "OakVar is not installed. Please install it with: pip install oakvar"
+            "OakVar is not installed in the current Python environment. Install OakVar (e.g., `pip install oakvar`) into the same environment as oakvar-mcp."
         )
 
 

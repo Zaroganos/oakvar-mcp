@@ -54,6 +54,8 @@ This MCP server lets you control OakVar through AI assistants like Claude or Cha
 
 ## Installation
 
+Note: OakVar and this MCP server must be installed in the same Python environment. If you use a virtual environment, configure your MCP client to use the full path to that environment's `oakvar-mcp` executable.
+
 ### From PyPI
 
 ```bash
@@ -63,7 +65,7 @@ pip install oakvar-mcp
 ### From Source
 
 ```bash
-git clone https://github.com/rkimoakbioinformatics/oakvar-mcp.git
+git clone https://github.com/zaroganos/oakvar-mcp.git
 cd oakvar-mcp
 pip install -e .
 ```
@@ -128,7 +130,7 @@ Add to `chatgpt_mcp_config.json`:
 
 ```bash
 # Clone and install in dev mode
-git clone https://github.com/rkimoakbioinformatics/oakvar-mcp.git
+git clone https://github.com/zaroganos/oakvar-mcp.git
 cd oakvar-mcp
 pip install -e ".[dev]"
 
@@ -160,5 +162,5 @@ MIT License
 ## Links
 
 - [OakVar Documentation](https://oakvar.readthedocs.io/)
-- [OakVar GitHub](https://github.com/rkimoakbioinformatics/oakvar)
+- [OakVar GitHub](https://github.com/zaroganos/oakvar)
 - [Model Context Protocol](https://modelcontextprotocol.io/)

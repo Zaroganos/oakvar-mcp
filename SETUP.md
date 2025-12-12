@@ -15,6 +15,8 @@ This guide explains how to set up and use the OakVar MCP Server with ChatGPT or 
 
 ### Step 1: Install OakVar
 
+Install OakVar and the MCP server into the same Python environment. If you use a virtual environment, make sure your MCP client is configured to run the `oakvar-mcp` executable from that environment.
+
 ```bash
 pip install oakvar
 ```
@@ -42,7 +44,7 @@ pip install oakvar-mcp
 
 **Option B: From source (this repo)**
 ```bash
-git clone https://github.com/rkimoakbioinformatics/oakvar-mcp.git
+git clone https://github.com/zaroganos/oakvar-mcp.git
 cd oakvar-mcp
 pip install -e .
 ```
@@ -115,7 +117,7 @@ python -c "from oakvar_mcp.server import list_tools; import asyncio; print(f'Loa
 
 ## Using a Virtual Environment (Recommended)
 
-If you installed oakvar-mcp in a virtual environment, update the config to use the full path:
+If you installed OakVar and oakvar-mcp in a virtual environment, update the config to use the full path to that environment's `oakvar-mcp` executable:
 
 **macOS/Linux:**
 ```json
@@ -148,7 +150,7 @@ If you installed oakvar-mcp in a virtual environment, update the config to use t
 ## Troubleshooting
 
 ### "OakVar is not installed"
-Run `pip install oakvar` and ensure it's in the same Python environment as oakvar-mcp.
+Install OakVar and ensure it's in the same Python environment as oakvar-mcp (for example `pip install oakvar`).
 
 ### "Modules directory is not set"
 Run `ov system setup` to configure OakVar.

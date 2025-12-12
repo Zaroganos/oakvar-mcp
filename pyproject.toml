@@ -9,7 +9,7 @@ description = "MCP Server for OakVar - A genomic variant analysis platform"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Oak Bioinformatics", email = "info@oakbioinformatics.com"}
+    {name = "Iliya Yaroshevskiy", email = "iyarosh1@binghamton.edu"}
 ]
 keywords = ["oakvar", "mcp", "bioinformatics", "genomics", "variant-analysis", "ai"]
 classifiers = [
@@ -38,10 +38,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/rkimoakbioinformatics/oakvar-mcp"
-Documentation = "https://github.com/rkimoakbioinformatics/oakvar-mcp#readme"
-Repository = "https://github.com/rkimoakbioinformatics/oakvar-mcp"
-Issues = "https://github.com/rkimoakbioinformatics/oakvar-mcp/issues"
+Homepage = "https://github.com/zaroganos/oakvar-mcp"
+Documentation = "https://github.com/zaroganos/oakvar-mcp#readme"
+Repository = "https://github.com/zaroganos/oakvar-mcp"
+Issues = "https://github.com/zaroganos/oakvar-mcp/issues"
 OakVar = "https://oakvar.readthedocs.io"
 
 [project.scripts]
