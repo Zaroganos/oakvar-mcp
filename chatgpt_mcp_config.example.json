@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "oakvar": {
+      "command": "oakvar-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}
